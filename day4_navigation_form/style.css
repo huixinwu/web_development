@@ -1,0 +1,115 @@
+html{scroll-behavior: smooth;}
+.header{
+    display: flex;
+}
+.headerlink{
+    width: 20%;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: ease-in-out 300ms;
+}
+.headerlink:hover{
+    opacity: 0.6;
+    transform: translateX(-20px) scale(1.2);
+}
+.headertitle{
+    width: 79%;
+    color:rgb(240, 80, 10);
+    text-align: center;
+}
+/* ====== SITELINKS ======= */
+.sitelinks{
+    background-color: rgb(240, 80, 10);
+    display: flex;
+    justify-content:center;
+}
+.navlink{
+    display: inline-block;
+    text-align: center;
+    padding: 1em 2em;
+    width: 33.3%;
+    color:whitesmoke;
+}
+.navlink:hover{
+    background-color:whitesmoke;
+    border: dashed 1px gray;
+    color:rgb(240, 80, 10);
+}
+/* ========= MAINBODY =========== */
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_div{
+    width:66%;
+}
+.pagelinks{
+    width: 30%;
+}
+.main_div section{
+    background-color: rgb(240, 200, 180);
+    padding: 1em 2em;
+}
+.main_div article{
+    background-color: azure;
+    padding: 1em 2em;
+}
+/*========== PAGELINKS =========== */
+.pagelinks{
+    padding: 1em;
+}
+.linknav{
+    border-bottom: 1px lightsalmon dotted;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color:rgb(240, 80, 10);
+}
+.linknav:hover{
+    color: darkmagenta;
+    font-weight: 900;
+}
+/*========= FIGURE =========*/
+img{width: 100%; display: block;}
+.figureimg{
+    width: 70%;
+    margin: 2% auto;
+    position: relative;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.imgtitle{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+}
+/* =========== FOOTER =========== */
+.contact{
+    background-color: rgb(10, 30, 5);
+    color:whitesmoke;
+    display: flex;
+    padding: 30px;
+}
+.contactcolumn{
+    width: 33%;
+}
+.policieslink{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+.followicon{
+    width:50px;
+    display: inline-block;
+    padding-right:1em;
+    opacity: 0.5;
+}
+.followicon:hover{
+    opacity: 1;
+}
